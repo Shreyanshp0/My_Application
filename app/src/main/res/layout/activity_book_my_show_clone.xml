@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookMyShowClone"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="BookMyShowClone"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv1"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dangal"
+        android:id="@+id/iv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="DANGAL"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv2"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/iv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sports Drama, Boipic"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv3"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/tv2"
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:id="@+id/st"
+        android:stepSize="0.5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/st"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="23dp"
+        android:text="Book Now" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/bt1"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/bt1"
+
+        android:text="Watch Later" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="17dp"
+        android:text="Movies" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/textView3"
+        android:text="Home"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="17dp"
+        android:text="Profile" />
+
+
+</RelativeLayout>
