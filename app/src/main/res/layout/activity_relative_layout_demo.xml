@@ -42,7 +42,6 @@
         android:id="@+id/et2"
         android:layout_below="@id/et1"
         android:width="100dp"
-
         android:layout_centerInParent="true"
         />
 
@@ -69,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@id/bt1"
-            android:layout_centerInParent="true"
+
 
             android:layout_toLeftOf="@id/bt1"
             android:text="Login"
@@ -79,7 +78,7 @@
         android:id="@+id/switch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+
         android:layout_alignParentBottom="true"
         android:layout_marginStart="135dp"
         android:layout_marginBottom="171dp"

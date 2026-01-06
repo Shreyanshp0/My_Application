@@ -12,22 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".PlacementEligibility"
+            android:name=".Practise"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".SetTEXT"
+            android:name=".PlacementEligibility"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".Action_1"
+            android:name=".SetTEXT"
             android:exported="true"></activity>
+        <activity
+            android:name=".Action_1"
+            android:exported="true" />
         <activity
             android:name=".Login_Constraint"
             android:exported="true" />
@@ -57,10 +61,14 @@
             android:exported="false" />
         <activity
             android:name=".LinearLayoutDemo"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".MainActivity2"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"

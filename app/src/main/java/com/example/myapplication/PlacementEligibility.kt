@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material3.ButtonColors
@@ -24,14 +25,17 @@ class PlacementEligibility : AppCompatActivity() {
         bt = findViewById(R.id.bt4)
         et1 = findViewById(R.id.et6)
         et2=findViewById(R.id.et7)
-        tv1 = findViewById(R.id.tv7)
+        tv1 = findViewById(R.id.tv2)
         bt.setOnClickListener {
             val a = et1.text.toString().toFloat()
             val b = et2.text.toString().toFloat()
             if(a<7 && b<2026){
+                Toast.makeText(this,"Not Eligible",Toast.LENGTH_SHORT).show()
                 tv1.text="Not Eligible"
             }
             else{
+
+                Toast.makeText(this,"Eligible",Toast.LENGTH_SHORT).show()
                 tv1.text="Eligible"
             }
 

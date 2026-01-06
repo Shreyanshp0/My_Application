@@ -20,8 +20,8 @@ class Action_1 : AppCompatActivity() {
         e=findViewById(editTextText3)
         e2=findViewById(editTextText4)
         b.setOnClickListener {
-            var Tgpa1=e.text.toString()
-            var TGPA2=e2.text.toString()
+            var Tgpa1=e.text.toString().toFloat()
+            var TGPA2=e2.text.toString().toFloat()
 
 
             var tgpa1=Tgpa1.toFloat()

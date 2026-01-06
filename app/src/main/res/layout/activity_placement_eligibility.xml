@@ -11,23 +11,26 @@
         android:id="@+id/tv2"
         android:layout_width="211dp"
         android:layout_height="40dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="188dp"
         android:text="Elegibility Checker"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv3"/>
 
     <EditText
         android:id="@+id/et6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
         android:hint="CGPA"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText6"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/et7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
 
     <EditText
         android:id="@+id/et7"
@@ -36,10 +39,11 @@
         android:ems="10"
         android:hint="Year of passing"
         android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="276dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bt4"
@@ -56,12 +60,13 @@
         android:id="@+id/tv7"
         android:layout_width="212dp"
         android:layout_height="42dp"
-        android:layout_marginTop="36dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/tv2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintHorizontal_bias="0.50"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
         tools:ignore="UnknownId" />
 </androidx.constraintlayout.widget.ConstraintLayout>
